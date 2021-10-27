@@ -11,11 +11,11 @@ export default function App() {
 
   return (
   <View style={styles.container}>
-      { /*Header */ }
+    
 <text> Hello World!
 </text>
      <View style={styles.content}>
-          { /* to form*/ }
+        
           <View style = {styles.list}>
 
         <FlatList
@@ -35,7 +35,7 @@ export default function App() {
 const styles = StyleSheet.create({
    container: {
      flex: 1,
-     backgroundColor: '#fff',
+     backgroundColor: '#fff'
   
   },
 
